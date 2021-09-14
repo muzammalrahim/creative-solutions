@@ -10,7 +10,7 @@ class BlogSidebar extends Component {
                 <div className="single-post" key={index}>
                     <Link to={sidebar.postsLink}><img src={sidebar.Image} alt="post" /></Link>
                     <h4><Link to={sidebar.postsLink}>{sidebar.PostTitle}</Link></h4>
-                    
+
                     <div className="post-meta">
                         <p>{sidebar.postContent}</p>
                         <ul>
@@ -31,7 +31,7 @@ class BlogSidebar extends Component {
 
         //Sidebar Tags loop start
         const tagdata = this.props.tagsData.map((tag, index) => (
-            <li key={index}> 
+            <li key={index}>
                 <Link to={tag.tagLink}>{tag.tagName}</Link>
             </li>
         ));
@@ -48,35 +48,35 @@ class BlogSidebar extends Component {
                         </form>
                     </div>
                 </div>
-                
+
                 <div className="side-widget">
                     <h3>{this.props.widgetTitle1}</h3>
 
                     {sidebardata}
-                    
+
                 </div>
-                
+
                 <div className="side-widget">
                     <h3>{this.props.widgetTitle2}</h3>
 
                     {sidebardata}
 
                 </div>
-                
+
                 <div className="side-widget">
                     <h3>{this.props.widgetTitle3}</h3>
                     <ul className="list-group">
                         {categoriedata}
                     </ul>
                 </div>
-                
+
                 <div className="side-widget">
                     <h3>{this.props.widgetTitle4}</h3>
                     <ul className="list-tags">
                         {tagdata}
                     </ul>
                 </div>
-            </div> 
+            </div>
         </React.Fragment>
     );
   }
@@ -101,21 +101,21 @@ BlogSidebar.defaultProps = {
     sideData: [
         {
             postsLink: "/#0",
-            Image: require("../../assets/img/post_1.jpg"),
+            Image: require("../../assets/img/posts/post_1.jpg"),
             PostTitle: "Lorem ipsum dolor sit amet",
             postContent: "Lorem ipsum dolor sit amet",
             postDate: "10 Mar",
         },
         {
             postsLink: "/#0",
-            Image: require("../../assets/img/post_2.jpg"),
+            Image: require("../../assets/img/posts/post_2.jpg"),
             PostTitle: "Lorem ipsum dolor sit amet",
             postContent: "Lorem ipsum dolor sit amet",
             postDate: "10 Mar",
         },
         {
             postsLink: "/#0",
-            Image: require("../../assets/img/post_3.jpg"),
+            Image: require("../../assets/img/posts/post_3.jpg"),
             PostTitle: "Lorem ipsum dolor sit amet",
             postContent: "Lorem ipsum dolor sit amet",
             postDate: "10 Mar",

@@ -4,7 +4,7 @@ import Icofont from 'react-icofont';
 import { Link } from 'react-router-dom';
 
 //Import Component
-import Sidebar from "./Sidebar"; 
+import Sidebar from "./Sidebar";
 import Comments from "./Comment";
 
 class Single extends Component {
@@ -24,7 +24,7 @@ class Single extends Component {
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
                 <section id="blog" className="our-blog main-blog">
                     <div className="container">
                         <div className="row">
@@ -35,7 +35,7 @@ class Single extends Component {
                                             <div className="post-img">
                                                 <img src={this.props.SingleImage} alt="blog-one" />
                                             </div>
-                                            
+
                                             <div className="blog-info">
                                                 <div className="date-box">
                                                 {this.props.SingleDate} <span className="month">{this.props.SingleMonth}</span>
@@ -51,10 +51,10 @@ class Single extends Component {
                                                     </div>
                                                 </div>
                                             </div>
-                                
+
                                             <div className="post-content">
                                                 <p>{this.props.PostContent}</p>
-                                                
+
                                                 <div className="sharing-link">
                                                     <ul>
                                                         <li><strong>Shear : </strong></li>
@@ -64,10 +64,10 @@ class Single extends Component {
                                                         <li><Link to={this.props.linkedinLink}><Icofont icon="icofont-linkedin"/></Link></li>
                                                     </ul>
                                                 </div>
-                                            </div> 
-                                            
+                                            </div>
+
                                             <Comments />
-                                            
+
                                             <div className="comments-form">
                                                 <h3 className="comments-title">Leave a Comments</h3>
                                                 <form>
@@ -128,7 +128,7 @@ Single.propTypes = {
 Single.defaultProps = {
     Title: "Blog Details",
     Content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
-    SingleImage: require("../../assets/img/blog-one.jpg"),
+    SingleImage: require("../../assets/img/blog/blog-one.jpg"),
     SingleTitle: "Risus commodo viverra mae.",
     SingleDate: "10",
     SingleMonth: "Mar",

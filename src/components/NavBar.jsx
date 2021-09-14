@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import { LinkContainer } from "react-router-bootstrap";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import SearchModal from "./SearchModal";
+// import SearchModal from "./SearchModal";
 
 class NavBar extends Component {
     componentDidMount() {
@@ -20,8 +20,8 @@ class NavBar extends Component {
             }
         });
         window.scrollTo(0, 0);
-        
-    
+
+
     }
 
     closeNavbar() {
@@ -44,7 +44,7 @@ class NavBar extends Component {
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-5 col-md-5">
                             <div className="social-icons">
                                 <ul className="list-inline">
@@ -70,19 +70,19 @@ class NavBar extends Component {
                     <Navbar.Brand className="navbar-brand logo">
                         <React.Fragment>
                             <LinkContainer exact to="/">
-                                <img 
+                                <img
                                     src={this.props.MainLogo}
-                                    alt="Logo" 
+                                    alt="Logo"
                                 />
                             </LinkContainer>
                         </React.Fragment>
                     </Navbar.Brand>
 
-                    <Navbar.Brand className="navbar-brand logo-2"> 
+                    <Navbar.Brand className="navbar-brand logo-2">
                             <React.Fragment>
                                <LinkContainer exact to="/">
-                                    <img 
-                                        className="img-fluid" 
+                                    <img
+                                        className="img-fluid"
                                         src={this.props.Logo2}
                                         alt="Logo"
                                     />
@@ -90,16 +90,16 @@ class NavBar extends Component {
                             </React.Fragment>
                     </Navbar.Brand>
 
-                    <Navbar.Toggle 
-                        className="navbar-toggler" 
-                        type="button" data-toggle="collapse" 
-                        data-target="#navbarSupportedContent" 
-                        aria-controls="navbarSupportedContent" 
-                        aria-expanded="false" 
-                        aria-label="Toggle navigation" 
+                    <Navbar.Toggle
+                        className="navbar-toggler"
+                        type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
                         id="collaspe-btn"
                     />
-                    <Navbar.Collapse 
+                    <Navbar.Collapse
                         id="navbarSupportedContent"
                     >
                         <Nav className="navbar-nav ml-auto">
@@ -146,7 +146,7 @@ class NavBar extends Component {
                                         className="nav-link"
                                         onClick={this.closeNavbar}
                                     >
-                                        Works
+                                        Portfolios
                                     </Link>
                                 </Nav.Item>
 
@@ -180,7 +180,7 @@ class NavBar extends Component {
                                     </Link>
                                 </Nav.Item>
 
-                                <Nav.Item>
+                                {/* <Nav.Item>
                                     <Link
                                         activeclass="active"
                                         to="blog"
@@ -193,7 +193,7 @@ class NavBar extends Component {
                                     >
                                         Blog
                                     </Link>
-                                </Nav.Item>
+                                </Nav.Item> */}
 
                                 <Nav.Item>
                                     <Link
@@ -253,7 +253,7 @@ class NavBar extends Component {
                                         className="nav-link"
                                         activeClassName=""
                                     >
-                                        Works
+                                        Portfolios
                                     </NavLink>
                                 </Nav.Item>
 
@@ -277,7 +277,7 @@ class NavBar extends Component {
                                     </NavLink>
                                 </Nav.Item>
 
-                                <Nav.Item>
+                                {/* <Nav.Item>
                                     <NavLink
                                         to="/"
                                         className="nav-link"
@@ -285,7 +285,7 @@ class NavBar extends Component {
                                     >
                                         Blog
                                     </NavLink>
-                                </Nav.Item>
+                                </Nav.Item> */}
 
                                 <Nav.Item>
                                     <NavLink
@@ -310,10 +310,10 @@ class NavBar extends Component {
                         )}
                         </Nav>
                     </Navbar.Collapse>
-                    
-                    <div className="header-search">
+
+                    {/* <div className="header-search">
                         <SearchModal />
-                    </div>
+                    </div> */}
                 </Container>
             </Navbar>
         </React.Fragment>
@@ -336,14 +336,14 @@ NavBar.propTypes = {
 
 //Default Props
 NavBar.defaultProps = {
-    MainLogo: require('../assets/img/logo.png'),
-    Logo2: require('../assets/img/logo2.png'),
-    mailLink: "mailto:name@email.com",
-    mail: "support@roxy.com ",
-    numberLink: "callto:+4917640206387",
-    Number: "+4917640206387",
-    facebookLink: "//facebook.com/envato",
-    twitterLink: "//twitter.com/envato",
-    instagramLink: "//instagram.com/envato/",
+    MainLogo: require('../assets/img/logos/logo-icon.png'),
+    Logo2: require('../assets/img/logos/full-logo_118x38.png'),
+    mailLink: "mailto:creative.joomdev@gmail.com",
+    mail: "creative.joomdev@gmail.com ",
+    numberLink: "callto:+920512300537",
+    Number: "+92 (051) 2300537",
+    facebookLink: "//facebook.com/muzammalrahim",
+    twitterLink: "//twitter.com/muzammalrahim",
+    instagramLink: "//instagram.com/muzammalrahim",
 };
 export default NavBar;

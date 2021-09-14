@@ -8,7 +8,7 @@ import WelcomeServices from "../components/WelcomeServices";
 import Works from "../components/Works";
 import About from "../components/About";
 import Team from "../components/Team";
-import Blog from "../components/Blog";
+// import Blog from "../components/Blog";
 import VideoArea from "../components/VideoArea";
 import Pricing from "../components/Pricing";
 import FunFacts from "../components/FunFacts";
@@ -37,7 +37,7 @@ class HomeOne extends Component {
             {/* Team: src/components/Team.jsx */}
             <Team />
             {/* Blog: src/components/Blog.jsx */}
-            <Blog />
+            {/* <Blog /> */}
             {/* VideoArea: src/components/VideoArea.jsx */}
             <VideoArea />
             {/* Pricing: src/components/Pricing.jsx */}

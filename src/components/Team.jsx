@@ -52,7 +52,7 @@ class Team extends Component {
                         smartSpeed= {1000}
                         autoplayHoverPause= {true}
                         navText= {[
-                            "<i class='icofont-arrow-left'></i>", 
+                            "<i class='icofont-arrow-left'></i>",
                             "<i class='icofont-arrow-right'></i>"
                         ]}
                         responsive={{
@@ -72,7 +72,7 @@ class Team extends Component {
                     </OwlCarousel>
                 </div>
             </div>
-        </section>   
+        </section>
         </React.Fragment>
     );
   }
@@ -93,7 +93,7 @@ Team.defaultProps = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
         teamsData: [
         {
-            Image: require("../assets/img/team-one.jpg"),
+            Image: require("../assets/img/team/team-one.jpg"),
             Name: "Williamson",
             Profession: "Web Developer",
             facebookLink: "/#0",
@@ -101,7 +101,7 @@ Team.defaultProps = {
             twitterLink: "/#0",
         },
         {
-            Image: require("../assets/img/team-two.jpg"),
+            Image: require("../assets/img/team/team-two.jpg"),
             Name: "Jone Doy",
             Profession: "Designer",
             facebookLink: "/#0",
@@ -109,7 +109,7 @@ Team.defaultProps = {
             twitterLink: "/#0",
         },
         {
-            Image: require("../assets/img/team-three.jpg"),
+            Image: require("../assets/img/team/team-three.jpg"),
             Name: "Oliver",
             Profession: "Photographer",
             facebookLink: "/#0",
@@ -117,14 +117,14 @@ Team.defaultProps = {
             twitterLink: "/#0",
         },
         {
-            Image: require("../assets/img/team-two.jpg"),
+            Image: require("../assets/img/team/team-two.jpg"),
             Name: "Mark Jone",
             Profession: "CEO",
             facebookLink: "/#0",
             linkedinLink: "/#0",
             twitterLink: "/#0",
         },
-        
+
     ]
 };
 

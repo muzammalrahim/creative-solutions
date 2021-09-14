@@ -474,13 +474,13 @@ button {
     Slider Area CSS
    ========================= */
 .slide-bg-1 {
-    background-image: url(assets/img/slide-bg-1.jpg);
+    background-image: url(assets/img/slides/slide-bg-1.jpg);
 }
 .slide-bg-2 {
-    background-image: url(assets/img/slide-bg-2.jpg);
+    background-image: url(assets/img/slides/slide-bg-2.jpg);
 }
 .slide-bg-3 {
-    background-image: url(assets/img/slide-bg-3.jpg);
+    background-image: url(assets/img/slides/slide-bg-3.jpg);
 }
 .hompage-slides-wrapper {
 	position: relative;
@@ -507,7 +507,7 @@ button {
     display: inline-block;
 }
 .home-banner-area {
-    background-image: url(assets/img/slide-bg-1.jpg);
+    background-image: url(assets/img/slides/slide-bg-1.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-color: #dddddd;
@@ -673,10 +673,11 @@ Services Area CSS
 }
 .service-item {
 	background-color: #f5f8f9;
-    padding: 25px;
-    margin-top: 30px;
-    transition: .5s;
-    -webkit-transition: .5s;
+  padding: 25px;
+  margin-top: 30px;
+  transition: .5s;
+  -webkit-transition: .5s;
+  height: 425px;
 }
 .service-item:hover {
 	background-color: #fff;
@@ -765,11 +766,19 @@ Services Area CSS
     position: relative;
     margin-top: 30px;
 }
+.detail-bg{
+  background: #f5f8f9;
+}
 .work-details img{
-    width: 100%;
-    height: auto;
-    transition: all 0.35s ease 0s;
-    -webkit-transition: all 0.35s ease 0s;
+  width: 100%;
+  height: auto;
+  transition: all 0.35s ease 0s;
+  -webkit-transition: all 0.35s ease 0s;
+}
+.set-img {
+  width: 360px;
+  height: 390px;
+  overflow: hidden;
 }
 .work-details:hover img{ opacity: 0.5; }
 .work-details .box-content{
@@ -848,6 +857,11 @@ Services Area CSS
 .work-details .span :hover{ background: #fff; }
 #Container .mix {
     display: none;
+}
+
+.project-btn {
+  max-width: 210px;
+  min-width: 200px;
 }
 /* =========================
     End Our Works Area CSS
@@ -1130,6 +1144,11 @@ Services Area CSS
 }
 .pagination-area .pagination > li{
     display: inline;
+    cursor: pointer;
+}
+li.disabled {
+  pointer-events: none;
+  opacity: 0.6;
 }
 .pagination li a, .pagination li span {
 	min-width: 30px;
@@ -2048,7 +2067,7 @@ a.button.border {
     background-position: center center;
 }
 .bread-cumbs-bg {
-    background-image: url(assets/img/banner-bg.jpg);
+    background-image: url(assets/img/slides/slide-bg-3.jpg);
 }
 .bread-cumbs-area h1 {
     font-size: 50px;

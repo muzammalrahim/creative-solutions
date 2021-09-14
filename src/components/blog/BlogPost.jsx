@@ -59,7 +59,7 @@ class BlogPost extends Component {
 
                             {/*Sidebar: src/components/blog/Sidebar.jsx*/}
                             <Sidebar />
-                            
+
                         </div>
                     </div>
                 </section>
@@ -78,7 +78,7 @@ BlogPost.defaultProps = {
 
     blogpostsData: [
         {
-            postImage: require("../../assets/img/blog-three.jpg"),
+            postImage: require("../../assets/img/blog/blog-three.jpg"),
             postLink: "/blog-details",
             date: "25",
             month: "Feb",
@@ -89,10 +89,10 @@ BlogPost.defaultProps = {
             TotalComments: "06",
             CommentsLink:  "/#0",
             TagName: "lifestyle",
-            TagLink:  "/#0", 
+            TagLink:  "/#0",
         },
         {
-            postImage: require("../../assets/img/blog-one.jpg"),
+            postImage: require("../../assets/img/blog/blog-one.jpg"),
             postLink: "/blog-details",
             date: "25",
             month: "Feb",
@@ -103,10 +103,10 @@ BlogPost.defaultProps = {
             TotalComments: "06",
             CommentsLink:  "/#0",
             TagName: "lifestyle",
-            TagLink:  "/#0", 
+            TagLink:  "/#0",
         },
         {
-            postImage: require("../../assets/img/blog-two.jpg"),
+            postImage: require("../../assets/img/blog/blog-two.jpg"),
             postLink: "/blog-details",
             date: "25",
             month: "Feb",
@@ -117,9 +117,9 @@ BlogPost.defaultProps = {
             TotalComments: "06",
             CommentsLink:  "/#0",
             TagName: "lifestyle",
-            TagLink:  "/#0", 
+            TagLink:  "/#0",
         },
-        
+
     ]
 };
 

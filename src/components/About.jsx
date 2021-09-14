@@ -31,12 +31,12 @@ class About extends Component {
                             </ScrollAnimation>
                         </div>
                     </div>
-                    
+
                     <div className="row">
                         {aboutdata}
                     </div>
                 </div>
-            </section>   
+            </section>
             </React.Fragment>
         );
     }
@@ -54,7 +54,7 @@ About.defaultProps = {
     SectionbgTitle: "About",
     sectionTitle: "About Us",
     sectionDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+        "",
         aboutsData: [
         {
             Icon: "icofont-binoculars",

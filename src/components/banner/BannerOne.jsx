@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import OwlCarousel from "react-owl-carousel3";
 import Icofont from "react-icofont";
 import PropTypes from "prop-types";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import VisibilitySensor from "react-visibility-sensor";
 
 class BannerOne extends Component {
@@ -46,14 +46,14 @@ class BannerOne extends Component {
                                             >
                                                 {bannerone.Content}
                                             </p>
-                                            <div className="center-wrap">
+                                            {/* <div className="center-wrap">
                                                 <Link to={bannerone.BtnLink} className="btn-a">
                                                     <div className="button">
                                                         {bannerone.BtnName}
                                                         <Icofont icon="icofont-long-arrow-right" />
                                                     <div className="mask" /></div>
                                                 </Link>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -65,7 +65,7 @@ class BannerOne extends Component {
             )
         );
         //BannerOne loop END
-        
+
         //Thumbs loop Start
         const thumbdata = this.props.thumbsData.map((thumb, index) => (
             <div className="owl-thumb-item" key={index}>
@@ -111,10 +111,10 @@ BannerOne.defaultProps = {
     banneronesData: [
         {
             BgClass: "single-slider-item slide-bg-1",
-            TopTitle: "Clean & Creative",
-            Title: "Fully Responsive Design",
+            TopTitle: "",
+            Title: "CREATIVE TECH SOLUTIONS",
             Content:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+                "where ideas become vivid",
             BtnLink:  "/#0",
             BtnName: "get started"
         },

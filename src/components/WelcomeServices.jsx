@@ -18,7 +18,7 @@ class WelcomeServices extends Component {
                                             <div className="cta-info">
                                                 <h2>{this.props.Title}</h2>
                                                 <p>{this.props.Content}</p>
-                                                
+
                                                 <div className="center-wrap">
                                                     <Link to={this.props.BtnLink} className="btn-a">
                                                         <div className="button">
@@ -30,7 +30,7 @@ class WelcomeServices extends Component {
                                             </div>
                                         </div>
                                         <div className="col-sm-6 col-md-5 col-lg-5 cta-img">
-                                            <img className="img-fluid" src={this.props.Image} alt="mac-pro" /> 
+                                            <img className="img-fluid" src={this.props.Image} alt="mac-pro" />
                                         </div>
                                     </div>
                                 </ScrollAnimation>
@@ -50,15 +50,15 @@ WelcomeServices.propTypes = {
     BtnLink: PropTypes.string,
     BtnName: PropTypes.string,
     Image: PropTypes.string,
-    
+
 };
 
 //Default Props
 WelcomeServices.defaultProps = {
     Title: "We offer best in class service for your needs",
     Content: "We strive to embrace and drive change in our industry which allows us to keep our clients relevant.",
-    BtnLink: "/#0",
-    BtnName: "PURCHASE NOW",
+    BtnLink: "contact",
+    BtnName: "Request a quote",
     Image: require("../assets/img/mac-pro.png"),
 };
 export default WelcomeServices;

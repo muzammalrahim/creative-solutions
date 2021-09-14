@@ -34,7 +34,7 @@ class Contact extends Component {
     };
 
     handleFields = e => this.setState({ [e.target.name]: e.target.value });
-    
+
     render() {
         return (
             <React.Fragment>
@@ -188,7 +188,7 @@ class Contact extends Component {
                                         <div className="clearfix" />
                                     </ValidationForm>
                                     {this.state.successMsg !== "" ? (
-                                        <div className="col-md-12"> 
+                                        <div className="col-md-12">
                                             <div id="contact_send_status">
                                                 <h3 className="contactMsg">
                                                     {this.state.successMsg}
@@ -224,12 +224,12 @@ Contact.propTypes = {
 Contact.defaultProps = {
     SectionbgTitle: "Contact",
     sectionTitle: "Our Contact",
-    sectionDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+    sectionDescription: "Thank you for taking the time to visit our website. Your questions and/or comments are important to us and we take our communication with you very seriously. For your convenience, we have provided several ways to reach us. Please contact us with any questions, concerns, to request more information, or to schedule an appointment.",
     AddTitle: "Address",
-    Address: "2750 Quadra Street Victoria, Canada.",
+    Address: "House 5 Street 21, G-13/3, Islamabad Capital Territory 44000",
     EmailTitle: "Email",
-    Email: "roxy@gmail.com",
+    Email: "creative.joomdev@gmail.com",
     PhoneTitle: "Phone",
-    Phone: "+1-325-555-0156",
+    Phone: "(051) 2300537",
 };
 export default Contact;

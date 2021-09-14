@@ -19,6 +19,7 @@ import HomeOne from "./pages/HomeOne";
 import HomeTwo from "./pages/HomeTwo";
 import HomeThree from "./pages/HomeThree";
 import BlogOne from "./pages/BlogOne";
+import Projects from "./pages/AllProjects";
 import BlogTwo from "./pages/BlogTwo";
 import SingleBlog from "./pages/SingleBlog";
 import ScrollUpBtn from "./components/ScrollUp";
@@ -49,6 +50,10 @@ class App extends Component {
                                             <Route
                                                 path="/blog-one"
                                                 component={BlogOne}
+                                            />
+                                            <Route
+                                                path="/projects"
+                                                component={Projects}
                                             />
                                             <Route
                                                 path="/home-three"

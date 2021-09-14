@@ -74,33 +74,49 @@ Partners.propTypes = {
 
 //Default Props
 Partners.defaultProps = {
-    SectionbgTitle: "Partners",
-    sectionTitle: "Our Partners",
-    sectionDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+    SectionbgTitle: "Clients",
+    sectionTitle: "Our Clients",
+    sectionDescription: "Timely and efficient communication, enthusiasm, hardwork and trust. These are some of our traits that bound our clients in a long term relationship with us.",
     partnersData: [
         {
-            partnerLogo: require("../assets/img/partners-logo/img1.png"),
+            partnerLogo: require("../assets/img/partners-logo/stylemag.png"),
             partnerLink: "/#0"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/img2.png"),
+            partnerLogo: require("../assets/img/partners-logo/skroutz.png"),
             partnerLink: "/#0"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/img3.png"),
+            partnerLogo: require("../assets/img/partners-logo/barronet.png"),
             partnerLink: "/#0"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/img4.png"),
+            partnerLogo: require("../assets/img/partners-logo/easypings.png"),
             partnerLink: "/#0"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/img5.png"),
+            partnerLogo: require("../assets/img/partners-logo/googleping.png"),
             partnerLink: "/#0"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/img3.png"),
+            partnerLogo: require("../assets/img/partners-logo/propertyinvestors.png"),
             partnerLink: "/#0"
+        },
+        {
+          partnerLogo: require("../assets/img/partners-logo/tsigfu.png"),
+          partnerLink: "/#0"
+        },
+        {
+          partnerLogo: require("../assets/img/partners-logo/copetrol.png"),
+          partnerLink: "/#0"
+        },
+        {
+          partnerLogo: require("../assets/img/partners-logo/suite3sixty.png"),
+          partnerLink: "/#0"
+        },
+        {
+          partnerLogo: require("../assets/img/partners-logo/netwise.png"),
+          partnerLink: "/#0"
         }
     ]
 };

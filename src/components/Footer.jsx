@@ -20,7 +20,7 @@ class Footer extends Component {
                                         <li><Link to={this.props.FacebookLink}><Icofont icon="icofont-facebook"/></Link></li>
                                         <li><Link to={this.props.TwitterLink}><Icofont icon="icofont-twitter"/></Link></li>
                                         <li><Link to={this.props.InstagramLink}><Icofont icon="icofont-instagram"/></Link></li>
-                                        <li><Link to={this.props.linkedinLink}><Icofont icon="icofont-linkedin"/></Link></li>
+                                        {/* <li><Link to={this.props.linkedinLink}><Icofont icon="icofont-linkedin"/></Link></li> */}
                                     </ul>
                                 </div>
                             </div>
@@ -44,9 +44,9 @@ Footer.propTypes = {
 Footer.defaultProps = {
     copyrightText: "2019 © All Rights Reserved.",
     socialTitle: "Follow Us On:",
-    FacebookLink: "/#0",
-    TwitterLink: "/#0",
-    InstagramLink: "/#0",
+    FacebookLink: "//facebook.com/muzammalrahim",
+    TwitterLink: "//twitter.com/muzammalrahim",
+    InstagramLink: "//instagram.com/muzammalrahim",
     linkedinLink: "/#0",
 };
 export default Footer;

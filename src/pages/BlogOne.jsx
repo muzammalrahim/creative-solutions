@@ -55,7 +55,7 @@ class BlogOne extends Component {
                     </div>
                 </div>
             </div>
-        </div>  
+        </div>
 
         <section id="blog" className="our-blog main-blog">
             <div className="container">
@@ -76,7 +76,7 @@ class BlogOne extends Component {
 
         {/*Footer: src/components/Footer.jsx */}
         <Footer />
-        
+
         </React.Fragment>
     );
   }
@@ -94,7 +94,7 @@ BlogOne.defaultProps = {
     Content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
     blogonesData: [
         {
-            postImage: require("../assets/img/blog-one.jpg"),
+            postImage: require("../assets/img/blog/blog-one.jpg"),
             postLink: "/blog-details",
             date: "25",
             month: "Feb",
@@ -105,10 +105,10 @@ BlogOne.defaultProps = {
             TotalComments: "06",
             CommentsLink: "#",
             TagName: "lifestyle",
-            TagLink: "#", 
+            TagLink: "#",
         },
         {
-            postImage: require("../assets/img/blog-two.jpg"),
+            postImage: require("../assets/img/blog/blog-two.jpg"),
             postLink: "/blog-details",
             date: "10",
             month: "Feb",
@@ -119,10 +119,10 @@ BlogOne.defaultProps = {
             TotalComments: "06",
             CommentsLink: "#",
             TagName: "lifestyle",
-            TagLink: "#", 
+            TagLink: "#",
         },
         {
-            postImage: require("../assets/img/blog-three.jpg"),
+            postImage: require("../assets/img/blog/blog-three.jpg"),
             postLink: "/blog-details",
             date: "30",
             month: "Jan",
@@ -133,10 +133,10 @@ BlogOne.defaultProps = {
             TotalComments: "06",
             CommentsLink: "#",
             TagName: "lifestyle",
-            TagLink: "#", 
+            TagLink: "#",
         },
         {
-            postImage: require("../assets/img/blog-one.jpg"),
+            postImage: require("../assets/img/blog/blog-one.jpg"),
             postLink: "/blog-details",
             date: "25",
             month: "Feb",
@@ -147,10 +147,10 @@ BlogOne.defaultProps = {
             TotalComments: "06",
             CommentsLink: "#",
             TagName: "lifestyle",
-            TagLink: "#", 
+            TagLink: "#",
         },
         {
-            postImage: require("../assets/img/blog-two.jpg"),
+            postImage: require("../assets/img/blog/blog-two.jpg"),
             postLink: "/blog-details",
             date: "10",
             month: "Feb",
@@ -161,10 +161,10 @@ BlogOne.defaultProps = {
             TotalComments: "06",
             CommentsLink: "#",
             TagName: "lifestyle",
-            TagLink: "#", 
+            TagLink: "#",
         },
         {
-            postImage: require("../assets/img/blog-three.jpg"),
+            postImage: require("../assets/img/blog/blog-three.jpg"),
             postLink: "/blog-details",
             date: "30",
             month: "Jan",
@@ -175,7 +175,7 @@ BlogOne.defaultProps = {
             TotalComments: "06",
             CommentsLink: "#",
             TagName: "lifestyle",
-            TagLink: "#", 
+            TagLink: "#",
         },
     ]
 };

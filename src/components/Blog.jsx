@@ -74,7 +74,7 @@ class Blog extends Component {
                         </div>
                     </div>
                 </div>
-            </section>   
+            </section>
         </React.Fragment>
     );
   }
@@ -99,7 +99,7 @@ Blog.defaultProps = {
     BlogBtn: "View All Post",
         blogsData: [
         {
-            postImage: require("../assets/img/blog-one.jpg"),
+            postImage: require("../assets/img/blog/blog-one.jpg"),
             postLink: "/blog-details",
             date: "25",
             month: "Feb",
@@ -110,10 +110,10 @@ Blog.defaultProps = {
             TotalComments: "06",
             CommentsLink: "/#0",
             TagName: "lifestyle",
-            TagLink: "/#0", 
+            TagLink: "/#0",
         },
         {
-            postImage: require("../assets/img/blog-two.jpg"),
+            postImage: require("../assets/img/blog/blog-two.jpg"),
             postLink: "/blog-details",
             date: "10",
             month: "Feb",
@@ -124,10 +124,10 @@ Blog.defaultProps = {
             TotalComments: "06",
             CommentsLink: "/#0",
             TagName: "lifestyle",
-            TagLink: "/#0", 
+            TagLink: "/#0",
         },
         {
-            postImage: require("../assets/img/blog-three.jpg"),
+            postImage: require("../assets/img/blog/blog-three.jpg"),
             postLink: "/blog-details",
             date: "30",
             month: "Jan",
@@ -138,10 +138,10 @@ Blog.defaultProps = {
             TotalComments: "06",
             CommentsLink: "/#0",
             TagName: "lifestyle",
-            TagLink: "/#0", 
+            TagLink: "/#0",
         },
         {
-            postImage: require("../assets/img/blog-four.jpg"),
+            postImage: require("../assets/img/blog/blog-four.jpg"),
             postLink: "/blog-details",
             date: "20",
             month: "Jan",
@@ -152,7 +152,7 @@ Blog.defaultProps = {
             TotalComments: "06",
             CommentsLink: "/#0",
             TagName: "lifestyle",
-            TagLink: "/#0", 
+            TagLink: "/#0",
         },
 
     ]

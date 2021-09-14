@@ -36,7 +36,7 @@ Comment.defaultProps = {
     TotalComments: "3 Comments",
     commentsData: [
         {
-            Image: require("../../assets/img/comment_1.jpg"),
+            Image: require("../../assets/img/comment/comment_1.jpg"),
             Name: "John Smith",
             ClassName: "single-comment",
             Time: "2 days ago",
@@ -45,7 +45,7 @@ Comment.defaultProps = {
             replyText: "Reply",
         },
         {
-            Image: require("../../assets/img/comment_2.jpg"),
+            Image: require("../../assets/img/comment/comment_2.jpg"),
             Name: "John Smith",
             ClassName: "single-comment mrl-50",
             Time: "2 days ago",
@@ -54,7 +54,7 @@ Comment.defaultProps = {
             replyText: "Reply",
         },
         {
-            Image: require("../../assets/img/comment_3.jpg"),
+            Image: require("../../assets/img/comment/comment_3.jpg"),
             Name: "John Smith",
             ClassName: "single-comment",
             Time: "2 days ago",
